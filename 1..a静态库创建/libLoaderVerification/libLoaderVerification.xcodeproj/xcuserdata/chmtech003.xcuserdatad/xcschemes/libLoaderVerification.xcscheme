@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B7AD1DF81F16065400572B21"
-               BuildableName = "Yochi_OriginalProject.app"
-               BlueprintName = "Yochi_OriginalProject"
-               ReferencedContainer = "container:Yochi_OriginalProject.xcodeproj">
+               BlueprintIdentifier = "B71931CF1F1635DE00C06D08"
+               BuildableName = "libLoaderVerification.app"
+               BlueprintName = "libLoaderVerification"
+               ReferencedContainer = "container:libLoaderVerification.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,27 +32,27 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B7AD1E111F16065400572B21"
-               BuildableName = "Yochi_OriginalProjectTests.xctest"
-               BlueprintName = "Yochi_OriginalProjectTests"
-               ReferencedContainer = "container:Yochi_OriginalProject.xcodeproj">
+               BlueprintIdentifier = "B71931E81F1635DE00C06D08"
+               BuildableName = "libLoaderVerificationTests.xctest"
+               BlueprintName = "libLoaderVerificationTests"
+               ReferencedContainer = "container:libLoaderVerification.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B7AD1DF81F16065400572B21"
-            BuildableName = "Yochi_OriginalProject.app"
-            BlueprintName = "Yochi_OriginalProject"
-            ReferencedContainer = "container:Yochi_OriginalProject.xcodeproj">
+            BlueprintIdentifier = "B71931CF1F1635DE00C06D08"
+            BuildableName = "libLoaderVerification.app"
+            BlueprintName = "libLoaderVerification"
+            ReferencedContainer = "container:libLoaderVerification.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -65,10 +65,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B7AD1DF81F16065400572B21"
-            BuildableName = "Yochi_OriginalProject.app"
-            BlueprintName = "Yochi_OriginalProject"
-            ReferencedContainer = "container:Yochi_OriginalProject.xcodeproj">
+            BlueprintIdentifier = "B71931CF1F1635DE00C06D08"
+            BuildableName = "libLoaderVerification.app"
+            BlueprintName = "libLoaderVerification"
+            ReferencedContainer = "container:libLoaderVerification.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -84,10 +84,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B7AD1DF81F16065400572B21"
-            BuildableName = "Yochi_OriginalProject.app"
-            BlueprintName = "Yochi_OriginalProject"
-            ReferencedContainer = "container:Yochi_OriginalProject.xcodeproj">
+            BlueprintIdentifier = "B71931CF1F1635DE00C06D08"
+            BuildableName = "libLoaderVerification.app"
+            BlueprintName = "libLoaderVerification"
+            ReferencedContainer = "container:libLoaderVerification.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -38,6 +38,16 @@
                ReferencedContainer = "container:Yochi_OriginalProject.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B71932101F163E5400C06D08"
+               BuildableName = "LibLoaderFrameworkTests.xctest"
+               BlueprintName = "LibLoaderFrameworkTests"
+               ReferencedContainer = "container:Yochi_OriginalProject.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
