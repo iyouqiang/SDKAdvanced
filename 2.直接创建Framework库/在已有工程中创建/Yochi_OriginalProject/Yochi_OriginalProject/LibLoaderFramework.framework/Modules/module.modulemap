@@ -1,0 +1,6 @@
+framework module LibLoaderFramework {
+  umbrella header "LibLoaderFramework.h"
+
+  export *
+  module * { export * }
+}

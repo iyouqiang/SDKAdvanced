@@ -11,7 +11,11 @@
 		B71932191F163E5500C06D08 /* LibLoaderFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B71932181F163E5500C06D08 /* LibLoaderFrameworkTests.m */; };
 		B719321B1F163E5500C06D08 /* LibLoaderFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = B719320B1F163E5400C06D08 /* LibLoaderFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B719321E1F163E5500C06D08 /* LibLoaderFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B71932091F163E5400C06D08 /* LibLoaderFramework.framework */; };
-		B719321F1F163E5500C06D08 /* LibLoaderFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B71932091F163E5400C06D08 /* LibLoaderFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B71932311F1712F700C06D08 /* LoaderProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = B719322D1F1712F700C06D08 /* LoaderProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B71932321F1712F700C06D08 /* LoaderProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B719322E1F1712F700C06D08 /* LoaderProgressView.m */; };
+		B71932331F1712F700C06D08 /* MathCalculation.h in Headers */ = {isa = PBXBuildFile; fileRef = B719322F1F1712F700C06D08 /* MathCalculation.h */; };
+		B71932341F1712F700C06D08 /* MathCalculation.m in Sources */ = {isa = PBXBuildFile; fileRef = B71932301F1712F700C06D08 /* MathCalculation.m */; };
+		B719325A1F171EEA00C06D08 /* LibLoaderFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B71932591F171EEA00C06D08 /* LibLoaderFramework.framework */; };
 		B7AD1DFE1F16065400572B21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AD1DFD1F16065400572B21 /* main.m */; };
 		B7AD1E011F16065400572B21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AD1E001F16065400572B21 /* AppDelegate.m */; };
 		B7AD1E041F16065400572B21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AD1E031F16065400572B21 /* ViewController.m */; };
@@ -19,8 +23,6 @@
 		B7AD1E091F16065400572B21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7AD1E081F16065400572B21 /* Assets.xcassets */; };
 		B7AD1E0C1F16065400572B21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7AD1E0A1F16065400572B21 /* LaunchScreen.storyboard */; };
 		B7AD1E171F16065400572B21 /* Yochi_OriginalProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AD1E161F16065400572B21 /* Yochi_OriginalProjectTests.m */; };
-		B7AD1E241F16074B00572B21 /* MathCalculation.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AD1E231F16074B00572B21 /* MathCalculation.m */; };
-		B7AD1E271F1607C700572B21 /* LoaderProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AD1E261F1607C700572B21 /* LoaderProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +63,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B719321F1F163E5500C06D08 /* LibLoaderFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,6 +76,11 @@
 		B71932111F163E5400C06D08 /* LibLoaderFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibLoaderFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B71932181F163E5500C06D08 /* LibLoaderFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibLoaderFrameworkTests.m; sourceTree = "<group>"; };
 		B719321A1F163E5500C06D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B719322D1F1712F700C06D08 /* LoaderProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoaderProgressView.h; sourceTree = "<group>"; };
+		B719322E1F1712F700C06D08 /* LoaderProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoaderProgressView.m; sourceTree = "<group>"; };
+		B719322F1F1712F700C06D08 /* MathCalculation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathCalculation.h; sourceTree = "<group>"; };
+		B71932301F1712F700C06D08 /* MathCalculation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathCalculation.m; sourceTree = "<group>"; };
+		B71932591F171EEA00C06D08 /* LibLoaderFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LibLoaderFramework.framework; sourceTree = "<group>"; };
 		B7AD1DF91F16065400572B21 /* Yochi_OriginalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yochi_OriginalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7AD1DFD1F16065400572B21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B7AD1DFF1F16065400572B21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -88,10 +94,6 @@
 		B7AD1E121F16065400572B21 /* Yochi_OriginalProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Yochi_OriginalProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7AD1E161F16065400572B21 /* Yochi_OriginalProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Yochi_OriginalProjectTests.m; sourceTree = "<group>"; };
 		B7AD1E181F16065400572B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B7AD1E221F16074B00572B21 /* MathCalculation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathCalculation.h; sourceTree = "<group>"; };
-		B7AD1E231F16074B00572B21 /* MathCalculation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathCalculation.m; sourceTree = "<group>"; };
-		B7AD1E251F1607C700572B21 /* LoaderProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoaderProgressView.h; sourceTree = "<group>"; };
-		B7AD1E261F1607C700572B21 /* LoaderProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoaderProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B719325A1F171EEA00C06D08 /* LibLoaderFramework.framework in Frameworks */,
 				B719321E1F163E5500C06D08 /* LibLoaderFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,6 +134,7 @@
 		B719320A1F163E5400C06D08 /* LibLoaderFramework */ = {
 			isa = PBXGroup;
 			children = (
+				B719322C1F1712F700C06D08 /* template */,
 				B719320B1F163E5400C06D08 /* LibLoaderFramework.h */,
 				B719320C1F163E5400C06D08 /* Info.plist */,
 			);
@@ -144,6 +148,17 @@
 				B719321A1F163E5500C06D08 /* Info.plist */,
 			);
 			path = LibLoaderFrameworkTests;
+			sourceTree = "<group>";
+		};
+		B719322C1F1712F700C06D08 /* template */ = {
+			isa = PBXGroup;
+			children = (
+				B719322D1F1712F700C06D08 /* LoaderProgressView.h */,
+				B719322E1F1712F700C06D08 /* LoaderProgressView.m */,
+				B719322F1F1712F700C06D08 /* MathCalculation.h */,
+				B71932301F1712F700C06D08 /* MathCalculation.m */,
+			);
+			path = template;
 			sourceTree = "<group>";
 		};
 		B7AD1DF01F16065400572B21 = {
@@ -171,7 +186,7 @@
 		B7AD1DFB1F16065400572B21 /* Yochi_OriginalProject */ = {
 			isa = PBXGroup;
 			children = (
-				B7AD1E211F1606A400572B21 /* template */,
+				B71932591F171EEA00C06D08 /* LibLoaderFramework.framework */,
 				B7AD1DFF1F16065400572B21 /* AppDelegate.h */,
 				B7AD1E001F16065400572B21 /* AppDelegate.m */,
 				B7AD1E021F16065400572B21 /* ViewController.h */,
@@ -202,17 +217,6 @@
 			path = Yochi_OriginalProjectTests;
 			sourceTree = "<group>";
 		};
-		B7AD1E211F1606A400572B21 /* template */ = {
-			isa = PBXGroup;
-			children = (
-				B7AD1E221F16074B00572B21 /* MathCalculation.h */,
-				B7AD1E231F16074B00572B21 /* MathCalculation.m */,
-				B7AD1E251F1607C700572B21 /* LoaderProgressView.h */,
-				B7AD1E261F1607C700572B21 /* LoaderProgressView.m */,
-			);
-			path = template;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -220,7 +224,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B71932331F1712F700C06D08 /* MathCalculation.h in Headers */,
 				B719321B1F163E5500C06D08 /* LibLoaderFramework.h in Headers */,
+				B71932311F1712F700C06D08 /* LoaderProgressView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +399,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B71932321F1712F700C06D08 /* LoaderProgressView.m in Sources */,
+				B71932341F1712F700C06D08 /* MathCalculation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,9 +416,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7AD1E271F1607C700572B21 /* LoaderProgressView.m in Sources */,
 				B7AD1E041F16065400572B21 /* ViewController.m in Sources */,
-				B7AD1E241F16074B00572B21 /* MathCalculation.m in Sources */,
 				B7AD1E011F16065400572B21 /* AppDelegate.m in Sources */,
 				B7AD1DFE1F16065400572B21 /* main.m in Sources */,
 			);
@@ -474,6 +480,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = C7U5N4698Q;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -482,10 +489,13 @@
 				INFOPLIST_FILE = LibLoaderFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
 				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Yochi.LibLoaderFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
 				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -496,6 +506,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -504,10 +515,13 @@
 				INFOPLIST_FILE = LibLoaderFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
 				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Yochi.LibLoaderFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
 				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -634,6 +648,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C7U5N4698Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Yochi_OriginalProject",
+				);
 				INFOPLIST_FILE = Yochi_OriginalProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Yochi.Yochi-OriginalProject";
@@ -647,12 +665,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = C7U5N4698Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Yochi_OriginalProject",
+				);
 				INFOPLIST_FILE = Yochi_OriginalProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Yochi.Yochi-OriginalProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "54cbad4b-ca5d-46fd-bec4-9bae7e94ffd4";
+				PROVISIONING_PROFILE_SPECIFIER = EcarayDebug;
 			};
 			name = Release;
 		};
