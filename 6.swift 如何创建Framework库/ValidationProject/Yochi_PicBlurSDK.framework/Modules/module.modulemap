@@ -1,0 +1,10 @@
+framework module Yochi_PicBlurSDK {
+  umbrella header "Yochi_PicBlurSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module Yochi_PicBlurSDK.Swift {
+    header "Yochi_PicBlurSDK-Swift.h"
+}

@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "template/LoaderProgressView.h"
-
+#import "LibLoaderFramework.h"
 @interface ViewController ()
 
 @end

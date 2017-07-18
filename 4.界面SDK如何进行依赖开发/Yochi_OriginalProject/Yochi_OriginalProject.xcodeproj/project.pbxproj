@@ -14,8 +14,6 @@
 		B7AD1E091F16065400572B21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7AD1E081F16065400572B21 /* Assets.xcassets */; };
 		B7AD1E0C1F16065400572B21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7AD1E0A1F16065400572B21 /* LaunchScreen.storyboard */; };
 		B7AD1E171F16065400572B21 /* Yochi_OriginalProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AD1E161F16065400572B21 /* Yochi_OriginalProjectTests.m */; };
-		B7AD1E241F16074B00572B21 /* MathCalculation.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AD1E231F16074B00572B21 /* MathCalculation.m */; };
-		B7AD1E271F1607C700572B21 /* LoaderProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AD1E261F1607C700572B21 /* LoaderProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +40,6 @@
 		B7AD1E121F16065400572B21 /* Yochi_OriginalProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Yochi_OriginalProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7AD1E161F16065400572B21 /* Yochi_OriginalProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Yochi_OriginalProjectTests.m; sourceTree = "<group>"; };
 		B7AD1E181F16065400572B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B7AD1E221F16074B00572B21 /* MathCalculation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathCalculation.h; sourceTree = "<group>"; };
-		B7AD1E231F16074B00572B21 /* MathCalculation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathCalculation.m; sourceTree = "<group>"; };
-		B7AD1E251F1607C700572B21 /* LoaderProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoaderProgressView.h; sourceTree = "<group>"; };
-		B7AD1E261F1607C700572B21 /* LoaderProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoaderProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +81,6 @@
 		B7AD1DFB1F16065400572B21 /* Yochi_OriginalProject */ = {
 			isa = PBXGroup;
 			children = (
-				B7AD1E211F1606A400572B21 /* template */,
 				B7AD1DFF1F16065400572B21 /* AppDelegate.h */,
 				B7AD1E001F16065400572B21 /* AppDelegate.m */,
 				B7AD1E021F16065400572B21 /* ViewController.h */,
@@ -116,17 +109,6 @@
 				B7AD1E181F16065400572B21 /* Info.plist */,
 			);
 			path = Yochi_OriginalProjectTests;
-			sourceTree = "<group>";
-		};
-		B7AD1E211F1606A400572B21 /* template */ = {
-			isa = PBXGroup;
-			children = (
-				B7AD1E221F16074B00572B21 /* MathCalculation.h */,
-				B7AD1E231F16074B00572B21 /* MathCalculation.m */,
-				B7AD1E251F1607C700572B21 /* LoaderProgressView.h */,
-				B7AD1E261F1607C700572B21 /* LoaderProgressView.m */,
-			);
-			path = template;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,9 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7AD1E271F1607C700572B21 /* LoaderProgressView.m in Sources */,
 				B7AD1E041F16065400572B21 /* ViewController.m in Sources */,
-				B7AD1E241F16074B00572B21 /* MathCalculation.m in Sources */,
 				B7AD1E011F16065400572B21 /* AppDelegate.m in Sources */,
 				B7AD1DFE1F16065400572B21 /* main.m in Sources */,
 			);
@@ -443,6 +423,7 @@
 				B7AD1E1D1F16065400572B21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7AD1E1E1F16065400572B21 /* Build configuration list for PBXNativeTarget "Yochi_OriginalProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +432,7 @@
 				B7AD1E201F16065400572B21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

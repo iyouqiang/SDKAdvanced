@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "LoaderProgressView.h"
+//#import "LoaderProgressView.h"
+#import "LibLoaderFramework.h"
 @interface ViewController ()
 
 @end
@@ -32,3 +33,4 @@
 
 
 @end
+
